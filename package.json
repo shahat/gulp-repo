@@ -4,13 +4,16 @@
   "description": "",
   "main": "",
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^4.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-html-minifier-terser": "^7.1.0",
     "gulp-optimize-images": "^1.1.5",
     "gulp-terser": "^2.1.0",
-    "gulp.spritesmith": "^6.13.0"
+    "gulp.spritesmith": "^4.2.4"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.11"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
